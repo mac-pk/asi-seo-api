@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net452;net472</TargetFrameworks>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AssemblyTitle>ASI.Services.WebApi</AssemblyTitle>
+    <Company>Advertising Specialty Institute, Inc.</Company>
+    <Product>ASI.Services.WebApi</Product>
+    <Description>ASI Web API Template</Description>
+    <Copyright>Copyright © Advertising Specialty Institute, Inc. 2018</Copyright>
+    <Version>1.1.7</Version>
+    <FileVersion>1.1.7.0</FileVersion>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <Authors>ASI Architecture Team</Authors>
+    <PackageId>ASI.Services.WebApi</PackageId>
+    <PackageTags>Library</PackageTags>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ASI.Services.Http" Version="4.0.1" />
+    <PackageReference Include="ASI.Services.Http.Security" Version="3.0.2" />
+    <PackageReference Include="ASI.Services.Logging" Version="3.0.9" />
+    <PackageReference Include="ASI.Services.Monitoring" Version="3.0.10" />
+    <PackageReference Include="ASI.Services.Statistics" Version="4.0.4" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.7" />
+    <PackageReference Include="StructureMap" Version="4.7.1" />
+    <PackageReference Include="WebApi.StructureMap" Version="1.0.23" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+</Project>

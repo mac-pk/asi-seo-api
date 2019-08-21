@@ -1,0 +1,9 @@
+/.vs/*
+/packages/*
+/SEO-WebApi/bin/*
+/SEO-WebApi/obj/*
+*.user
+_ReSharper.Caches
+/ASI.Services.WebApi/bin/*
+/ASI.Services.WebApi/obj/*
+/SEO-WebApi/.vs/*
