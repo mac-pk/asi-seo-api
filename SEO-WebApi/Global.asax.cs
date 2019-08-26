@@ -11,7 +11,7 @@ using System.Web;
 using System.Web.Http;
 using WebApi.StructureMap;
 
-namespace WebApiTemplate
+namespace WebApi
 {
     public class WebApiApplication : HttpApplication
     {

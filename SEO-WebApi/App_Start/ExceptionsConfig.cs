@@ -6,7 +6,7 @@ using System.Web.Http;
 using System.Web.Http.ExceptionHandling;
 using ExceptionHandler = ASI.Services.Http.Exceptions.ExceptionHandler;
 
-namespace WebApiTemplate
+namespace WebApi
 {
     public static class ExceptionsConfig
     {

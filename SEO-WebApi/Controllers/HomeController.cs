@@ -5,7 +5,7 @@ using System.Web.Http.Cors;
 using ASI.Services.Monitoring;
 using ASI.Services.Statistics.Data;
 
-namespace WebApiTemplate.Controllers
+namespace WebApi.Controllers
 {
     [EnableCors("*", "*", "*")]
     [ApiVersion("1.0")]

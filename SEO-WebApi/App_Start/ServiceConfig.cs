@@ -4,7 +4,7 @@ using ASI.Services.Statistics.Data;
 using ASI.Services.WebApi;
 using StructureMap;
 
-namespace WebApiTemplate
+namespace WebApi
 {
     public static class ServiceConfig
     {

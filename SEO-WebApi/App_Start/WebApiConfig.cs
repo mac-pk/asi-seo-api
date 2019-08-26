@@ -10,7 +10,7 @@ using System.Web.Http.Routing;
 using ASI.Services.WebApi;
 using Newtonsoft.Json.Serialization;
 
-namespace WebApiTemplate
+namespace WebApi
 {
     public static class WebApiConfig
     {
