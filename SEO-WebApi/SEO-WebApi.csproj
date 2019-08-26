@@ -487,6 +487,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SEO-Business\SEO-Business.csproj">
+      <Project>{7ff67ee8-6782-428d-89ff-a02f34df2eee}</Project>
+      <Name>SEO-Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SEO-Domain\SEO-Domain.csproj">
+      <Project>{be10c32c-9c88-4ef1-b232-0808222aca84}</Project>
+      <Name>SEO-Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

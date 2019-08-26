@@ -2,6 +2,12 @@
 /packages/*
 /SEO-WebApi/bin/*
 /SEO-WebApi/obj/*
+/SEO-Business/bin/*
+/SEO-Business/obj/*
+/SEO-Domain/bin/*
+/SEO-Domain/obj/*
+/SEO-DataAccess/bin/*
+/SEO-DataAccess/obj/*
 *.user
 _ReSharper.Caches
 /ASI.Services.WebApi/bin/*
